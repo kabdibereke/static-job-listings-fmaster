@@ -1,0 +1,32 @@
+.filter__panel {
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    background-color:var(--white);
+    border-radius:20px;
+    padding: 30px 40px;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    box-shadow: var(--shadow);
+    display: flex;
+    row-gap: 20px;
+    flex-wrap: wrap;
+}
+.clear__button {
+    right: 10px;
+    top: 32%;
+    position: absolute;
+    border: 0;
+    background-color:transparent;
+    padding: 10px;
+    font-weight: 700;
+    color: var(--main-color);
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s;
+    &:hover {
+        color: var(--very-dark-cyan);
+        transition: 0.2s;
+    }
+}
